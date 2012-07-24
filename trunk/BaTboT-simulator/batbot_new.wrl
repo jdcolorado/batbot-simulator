@@ -1,0 +1,156 @@
+#VRML V2.0 utf8
+
+#         Created with V-Realm Builder v2.0
+#         Integrated Data Systems Inc.
+#         www.ids-net.com
+DirectionalLight {
+}
+Background {
+  skyColor [0.76238 0.8 0.1427, 0.277798 0.219779 0.7, 0.222549 0.390234 0.7, 0.60094 0.662637 0.69 ]
+  skyAngle [0.1, 1.2, 1.57 ]
+  groundColor [1 0.992785 0.971138, 0.959184 1 1, 0.94898 1 0.897959, 0.928354 1 0.895939 ]
+}
+Viewpoint {
+  description "VP1"
+}
+NavigationInfo {
+}
+WorldInfo {
+  title "Batbot Simulation"
+  info "batbot" 
+}
+DEF Floating_base Transform {
+  children [
+    DEF body5_2_left Transform {
+      children [
+        Inline {
+          url "body5_2_left.wrl" 
+        }
+        DEF body5_2_right Transform {
+          children [
+            Inline {
+              url "body5_2_right.wrl" 
+            }
+            DEF motor_case Transform {
+              children [
+                Inline {
+                  url "motor_case.wrl" 
+                }
+                DEF servo Transform {
+                  children [
+                    Inline {
+                      url "servo.wrl" 
+                    }
+                    DEF barra_servo Transform {
+                      children [
+                        Inline {
+                          url "barra_servo.wrl" 
+                        }
+                        DEF barra5-1 Transform {
+                          children [
+                            Inline {
+                              url "barra5-1.wrl" 
+                            }
+                            DEF shoulder5_right Transform {
+                              children [
+                                Inline {
+                                  url "shoulder5_right.wrl" 
+                                }
+                                DEF humerus5_right Transform {
+                                  children [
+                                    Inline {
+                                      url "humerus5_right.wrl" 
+                                    }
+                                    DEF radius5-1 Transform {
+                                      children [
+                                        Inline {
+                                          url "radius5-1.wrl" 
+                                        }
+                                        DEF digit5 Transform {
+                                          children Inline {
+                                            url "digit5.wrl" 
+                                          }
+                                        }
+                                        DEF digit3 Transform {
+                                          children Inline {
+                                            url "digit3.wrl" 
+                                          }
+                                        }
+                                        DEF digit4 Transform {
+                                          children Inline {
+                                            url "digit4.wrl" 
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                        DEF barra5 Transform {
+                          children [
+                            Inline {
+                              url "barra5.wrl" 
+                            }
+                            DEF shoulder5_left Transform {
+                              children [
+                                Inline {
+                                  url "shoulder5_left.wrl" 
+                                }
+                                DEF humerus5_left Transform {
+                                  children [
+                                    Inline {
+                                      url "humerus5_left.wrl" 
+                                    }
+                                    DEF radius5 Transform {
+                                      children [
+                                        Inline {
+                                          url "radius5.wrl" 
+                                        }
+                                        DEF digit5-1 Transform {
+                                          children Inline {
+                                            url "digit5-1.wrl" 
+                                          }
+                                        }
+                                        DEF digit3-1 Transform {
+                                          children Inline {
+                                            url "digit3-1.wrl" 
+                                          }
+                                        }
+                                        DEF digit4-1 Transform {
+                                          children Inline {
+                                            url "digit4-1.wrl" 
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+    DEF leg Transform {
+      children Inline {
+        url "leg.wrl" 
+      }
+    }
+    DEF leg-1 Transform {
+      children Inline {
+        url "leg-1.wrl" 
+      }
+    }
+  ]
+}

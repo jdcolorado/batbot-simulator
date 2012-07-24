@@ -1,0 +1,4 @@
+function [motion] = PVA(pos,counter)
+
+motion = [pos(counter) 60 120]';
+end

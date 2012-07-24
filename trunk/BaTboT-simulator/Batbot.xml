@@ -1,0 +1,2545 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<PhysicalModelingXMLFile>
+
+  <formatVersion>"1.0.4"</formatVersion>
+
+  <internalVersion>1</internalVersion>
+
+  <createdUsing>"SimMechanics Link Version 3.2"</createdUsing>
+
+  <createdFrom>"SolidWorks 18.0.0"</createdFrom>
+
+  <createdOn>"06/15/11||21:55:26"</createdOn>
+
+  <createdBy>"No formal user defined!"</createdBy>
+
+  <name>"Batbot"</name>
+
+  <SimMechanics>
+    <name>"Batbot"</name>
+    <nodeID>"Batbot"</nodeID>
+    <bodies>
+      <Body>
+        <name>"barra5-1"</name>
+        <nodeID>"barra5-1"</nodeID>
+        <status>""</status>
+        <mass>0.000119962</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.1412e-010,-3.7491e-012,4.37309e-017,-3.7491e-012,8.63077e-009,-5.97977e-019,4.37309e-017,-5.97977e-019,8.66519e-009</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.1761e-007</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.000354486</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-1::CG(AUTOGEN)"</nodeID>
+            <position>0.00675046,0.021022,0.006</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.97857,-0.205912,0,0.205912,0.97857,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-1::CS1(AUTOGEN)"</nodeID>
+            <position>-0.00713958,0.0218999,0.007</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.97857,-0.205912,0,0.205912,0.97857,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="8">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-1:-:shoulder5_right-1::barra5-1(AUTOGEN)"</nodeID>
+            <position>0.0201957,0.0181917,0.005</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="10">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-1:-:barra_servo-1::barra5-1(AUTOGEN)"</nodeID>
+            <position>-0.00672776,0.023857,0.005</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - barra5-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"shoulder5_left-1"</name>
+        <nodeID>"shoulder5_left-1"</nodeID>
+        <status>""</status>
+        <mass>0.00901241</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.00808e-006,6.76412e-008,2.46891e-009,6.76412e-008,6.63601e-007,1.33885e-009,2.46891e-009,1.33885e-009,1.59987e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>8.83569e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00473933</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"shoulder5_left-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.0413208,0.00144688,0.00594565</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.939054,-0.343768,0,0,0,1,-0.343768,0.939054,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"shoulder5_left-1::CS1(AUTOGEN)"</nodeID>
+            <position>-0.0387349,0.00228611,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.939054,-0.343768,0,0,0,1,-0.343768,0.939054,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="12">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_left-1:-:shoulder5_left-1::shoulder5_left-1(AUTOGEN)"</nodeID>
+            <position>-0.0387349,0.00228611,0.034</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="13">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_left-1:-:shoulder5_left-1::shoulder5_left-1(AUTOGEN)"</nodeID>
+            <position>-0.0401444,0.00613623,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="15">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-2:-:shoulder5_left-1::shoulder5_left-1(AUTOGEN)"</nodeID>
+            <position>-0.0446993,0.0185787,0.005</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - shoulder5_left-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"shoulder5_right-1"</name>
+        <nodeID>"shoulder5_right-1"</nodeID>
+        <status>""</status>
+        <mass>0.00901257</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.00808e-006,6.76379e-008,-3.06892e-009,6.76379e-008,6.63619e-007,-2.62474e-009,-3.06892e-009,-2.62474e-009,1.59986e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>8.83585e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00473955</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"shoulder5_right-1::CG(AUTOGEN)"</nodeID>
+            <position>0.0158057,0.00131584,0.00594558</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.916751,-0.399458,0,0,0,1,-0.399458,-0.916751,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"shoulder5_right-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.0132651,0.00228611,-2.18454e-014</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.916751,-0.399458,0,0,0,1,-0.399458,-0.916751,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="7">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-1:-:shoulder5_right-1::shoulder5_right-1(AUTOGEN)"</nodeID>
+            <position>0.0201957,0.0181917,0.005</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="18">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_right-1:-:shoulder5_right-1::shoulder5_right-1(AUTOGEN)"</nodeID>
+            <position>0.0132651,0.00228611,0.034</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="19">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_right-1:-:shoulder5_right-1::shoulder5_right-1(AUTOGEN)"</nodeID>
+            <position>0.0149028,0.00604479,-2.18717e-014</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - shoulder5_right-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"body5_2_left-1"</name>
+        <nodeID>"body5_2_left-1"</nodeID>
+        <status>""</status>
+        <mass>0.00990124</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>6.86716e-006,1.97503e-007,-1.60321e-007,1.97503e-007,6.52126e-006,2.23269e-008,-1.60321e-007,2.23269e-008,1.26887e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>9.7071e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00683766</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_left-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.0358488,-0.00702322,0.00503721</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_left-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.00126505,0.00228611,-2.18436e-014</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="11">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_left-1:-:shoulder5_left-1::body5_2_left-1(AUTOGEN)"</nodeID>
+            <position>-0.0387349,0.00228611,0.034</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="22">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_left-1:-:body5_2_right-1::body5_2_left-1(AUTOGEN)"</nodeID>
+            <position>-0.0127349,-0.0177139,0.035</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="23">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_left-1:-:motor_case-2::body5_2_left-1(AUTOGEN)"</nodeID>
+            <position>-0.0127349,-0.0167139,0.019</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="25">
+            <name>"CS5"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_left-1:-:leg-2::body5_2_left-1(AUTOGEN)"</nodeID>
+            <position>-0.0367349,0.00438611,0.052</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - body5_2_left-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"body5_2_right-1"</name>
+        <nodeID>"body5_2_right-1"</nodeID>
+        <status>""</status>
+        <mass>0.00990077</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>6.8671e-006,-1.97521e-007,1.60303e-007,-1.97521e-007,6.52112e-006,2.23345e-008,1.60303e-007,2.23345e-008,1.26891e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>9.70664e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00683761</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_right-1::CG(AUTOGEN)"</nodeID>
+            <position>0.0103788,-0.00702282,0.00503904</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_right-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.00126505,0.00228611,-2.18402e-014</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="2">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Batbot/RootPart:-:body5_2_right-1::body5_2_right-1(AUTOGEN)"</nodeID>
+            <position>0.0103788,-0.00702282,0.00503904</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="17">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_right-1:-:shoulder5_right-1::body5_2_right-1(AUTOGEN)"</nodeID>
+            <position>0.0132651,0.00228611,0.034</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="21">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_left-1:-:body5_2_right-1::body5_2_right-1(AUTOGEN)"</nodeID>
+            <position>-0.0127349,-0.0177139,0.035</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="27">
+            <name>"CS5"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_right-1:-:motor_case-2::body5_2_right-1(AUTOGEN)"</nodeID>
+            <position>-0.00498495,-0.0167139,0.019</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="29">
+            <name>"CS6"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_right-1:-:leg-1::body5_2_right-1(AUTOGEN)"</nodeID>
+            <position>0.0112651,0.00438611,0.052</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - body5_2_right-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"RootPart"</name>
+        <nodeID>"Batbot/RootPart"</nodeID>
+        <status>""</status>
+        <mass>0</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0,0,0,0,0,0,0,0,0</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Batbot/RootPart::CG(AUTOGEN)"</nodeID>
+            <position>-0.0126203,-0.00464218,0.00877209</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Batbot/RootPart::CS1(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="1">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Batbot/RootPart:-:body5_2_right-1::Batbot/RootPart(AUTOGEN)"</nodeID>
+            <position>0.0103788,-0.00702282,0.00503904</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="50">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Batbot/RootPart:-:RootGround::Batbot/RootPart(AUTOGEN)"</nodeID>
+            <position>-0.0126203,-0.00464218,0.00877209</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>""</geometryFileName>
+      </Body>
+      <Body>
+        <name>"barra_servo-1"</name>
+        <nodeID>"barra_servo-1"</nodeID>
+        <status>""</status>
+        <mass>0.00014427</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>7.38605e-009,0,0,0,7.70092e-009,0,0,0,5.0296e-010</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.41441e-007</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.000498332</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra_servo-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.0124493,0.017571,0.00472003</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.739536,0.673117,0,0,0,-1,-0.673117,-0.739536,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra_servo-1::CS1(AUTOGEN)"</nodeID>
+            <position>-0.0124493,0.017571,0.0095</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.739536,0.673117,0,0,0,-1,-0.673117,-0.739536,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="4">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra_servo-1:-:servo-1::barra_servo-1(AUTOGEN)"</nodeID>
+            <position>-0.0124493,0.017571,0.0095</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="9">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-1:-:barra_servo-1::barra_servo-1(AUTOGEN)"</nodeID>
+            <position>-0.00672776,0.023857,0.005</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="31">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-2:-:barra_servo-1::barra_servo-1(AUTOGEN)"</nodeID>
+            <position>-0.0181707,0.0112849,0.005</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - barra_servo-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"servo-1"</name>
+        <nodeID>"servo-1"</nodeID>
+        <status>""</status>
+        <mass>0.00760085</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>6.91379e-007,3.2892e-012,9.73497e-012,3.2892e-012,4.21849e-007,-3.81458e-008,9.73497e-012,-3.81458e-008,4.47884e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>6.33404e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00241243</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.0124599,0.0124729,0.0225887</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-1,0,0,0,1,0,0,0,-1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo-1::CS1(AUTOGEN)"</nodeID>
+            <position>-0.00645995,0.00053611,0.0135</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-1,0,0,0,1,0,0,0,-1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="3">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra_servo-1:-:servo-1::servo-1(AUTOGEN)"</nodeID>
+            <position>-0.0124493,0.017571,0.0095</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="6">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"motor_case-2:-:servo-1::servo-1(AUTOGEN)"</nodeID>
+            <position>-0.0189849,0.0235361,0.0355</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - servo-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0,0,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.7</specular>
+          <shininess>0.1</shininess>
+          <transparency>0.5</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"motor_case-2"</name>
+        <nodeID>"motor_case-2"</nodeID>
+        <status>""</status>
+        <mass>0.00589266</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.45703e-006,6.98041e-010,2.27921e-011,6.98041e-010,2.88185e-007,6.12252e-009,2.27921e-011,6.12252e-009,1.49863e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>5.77712e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00439659</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"motor_case-2::CG(AUTOGEN)"</nodeID>
+            <position>-0.0127433,0.00186569,0.0266734</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"motor_case-2::CS1(AUTOGEN)"</nodeID>
+            <position>0.00126505,0.00078611,-2.18437e-014</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="5">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"motor_case-2:-:servo-1::motor_case-2(AUTOGEN)"</nodeID>
+            <position>-0.0189849,0.0235361,0.0355</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="24">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_left-1:-:motor_case-2::motor_case-2(AUTOGEN)"</nodeID>
+            <position>-0.00498495,-0.0167139,0.019</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="28">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_right-1:-:motor_case-2::motor_case-2(AUTOGEN)"</nodeID>
+            <position>-0.00498495,-0.0167139,0.019</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - motor_case-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"humerus5_left-1"</name>
+        <nodeID>"humerus5_left-1"</nodeID>
+        <status>""</status>
+        <mass>0.00388478</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>9.8086e-008,-5.68803e-008,-2.88275e-009,-5.68803e-008,1.65963e-006,1.30066e-010,-2.88275e-009,1.30066e-010,1.71688e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>3.80861e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.0040836</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_left-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.0529655,-0.00265714,0.0100031</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.766313,-0.280531,0.577984,-0.542759,-0.198693,-0.816048,0.343768,-0.939054,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_left-1::CS1(AUTOGEN)"</nodeID>
+            <position>-0.0389412,0.00284954,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.766313,-0.280531,0.577984,-0.542759,-0.198693,-0.816048,0.343768,-0.939054,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="14">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_left-1:-:shoulder5_left-1::humerus5_left-1(AUTOGEN)"</nodeID>
+            <position>-0.0401444,0.00613623,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="35">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_left-1:-:radius5-2::humerus5_left-1(AUTOGEN)"</nodeID>
+            <position>-0.0841676,-0.0116836,0.0296556</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - humerus5_left-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"humerus5_right-1"</name>
+        <nodeID>"humerus5_right-1"</nodeID>
+        <status>""</status>
+        <mass>0.0038586</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>9.77601e-008,-3.6228e-008,9.94906e-009,-3.6228e-008,1.68368e-006,-1.75654e-010,9.94906e-009,-1.75654e-010,1.73993e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>3.78294e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00408589</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_right-1::CG(AUTOGEN)"</nodeID>
+            <position>0.028644,-0.00412775,0.00731592</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.833143,-0.363027,0.417234,0.3825,-0.166668,-0.908799,0.399458,0.916751,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_right-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.013305,0.00237779,-2.18943e-014</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.833143,-0.363027,0.417234,0.3825,-0.166668,-0.908799,0.399458,0.916751,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="20">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_right-1:-:shoulder5_right-1::humerus5_right-1(AUTOGEN)"</nodeID>
+            <position>0.0149028,0.00604479,-2.18717e-014</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="33">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_right-1:-:radius5-1::humerus5_right-1(AUTOGEN)"</nodeID>
+            <position>0.061853,-0.0167036,0.0203737</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - humerus5_right-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"barra5-2"</name>
+        <nodeID>"barra5-2"</nodeID>
+        <status>""</status>
+        <mass>0.000119962</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.1412e-010,-3.7491e-012,4.37309e-017,-3.7491e-012,8.63077e-009,-5.97977e-019,4.37309e-017,-5.97977e-019,8.66519e-009</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.1761e-007</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.000354486</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-2::CG(AUTOGEN)"</nodeID>
+            <position>-0.0314187,0.0149284,0.006</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.96422,-0.265104,0,0.265104,0.96422,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-2::CS1(AUTOGEN)"</nodeID>
+            <position>-0.0452295,0.0166503,0.007</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.96422,-0.265104,0,0.265104,0.96422,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="16">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-2:-:shoulder5_left-1::barra5-2(AUTOGEN)"</nodeID>
+            <position>-0.0446993,0.0185787,0.005</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="32">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"barra5-2:-:barra_servo-1::barra5-2(AUTOGEN)"</nodeID>
+            <position>-0.0181707,0.0112849,0.005</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - barra5-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"digit 5-1"</name>
+        <nodeID>"digit 5-1"</nodeID>
+        <status>""</status>
+        <mass>0.000627913</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>4.77978e-009,7.52312e-009,6.57727e-010,7.52312e-009,4.69347e-007,-6.68752e-011,6.57727e-010,-6.68752e-011,4.65325e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>6.15601e-007</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00117507</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 5-1::CG(AUTOGEN)"</nodeID>
+            <position>0.10572,-0.0398072,-0.0236482</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.499609,-0.217696,0.838451,0.399458,0.916751,0,-0.768651,0.334926,0.544978</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 5-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.0966608,-0.0389608,-0.0365888</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.499609,-0.217696,0.838451,0.399458,0.916751,0,-0.768651,0.334926,0.544978</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="38">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 5-1:-:radius5-1::digit 5-1(AUTOGEN)"</nodeID>
+            <position>0.0976595,-0.0366689,-0.0365888</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="39">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 4-1:-:digit 5-1::digit 5-1(AUTOGEN)"</nodeID>
+            <position>0.0982587,-0.0352938,-0.0365888</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - digit 5-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"radius5-2"</name>
+        <nodeID>"radius5-2"</nodeID>
+        <status>""</status>
+        <mass>0.00250557</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.6957e-008,-1.71957e-008,-5.01752e-008,-1.71957e-008,1.75521e-006,-7.17954e-010,-5.01752e-008,-7.17954e-010,1.74444e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.45644e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00337792</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"radius5-2::CG(AUTOGEN)"</nodeID>
+            <position>-0.108688,-0.0234434,0.000456752</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.593958,-0.217436,-0.774555,0.343768,-0.939054,0,-0.727349,-0.266267,0.632507</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"radius5-2::CS1(AUTOGEN)"</nodeID>
+            <position>-0.0868653,-0.0110738,0.0315531</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.593958,-0.217436,-0.774555,0.343768,-0.939054,0,-0.727349,-0.266267,0.632507</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="36">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_left-1:-:radius5-2::radius5-2(AUTOGEN)"</nodeID>
+            <position>-0.0841676,-0.0116836,0.0296556</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="41">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 5-2:-:radius5-2::radius5-2(AUTOGEN)"</nodeID>
+            <position>-0.12798,-0.0277222,-0.0226197</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="43">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 3-2:-:radius5-2::radius5-2(AUTOGEN)"</nodeID>
+            <position>-0.126226,-0.0325114,-0.0226197</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - radius5-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"radius5-1"</name>
+        <nodeID>"radius5-1"</nodeID>
+        <status>""</status>
+        <mass>0.00250557</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.6957e-008,-1.71957e-008,-5.01752e-008,-1.71957e-008,1.75521e-006,-7.17954e-010,-5.01752e-008,-7.17954e-010,1.74444e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.45644e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00337792</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"radius5-1::CG(AUTOGEN)"</nodeID>
+            <position>0.0831116,-0.0274789,-0.0115511</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.500637,-0.218144,-0.837721,0.399458,0.916751,0,0.767982,-0.334634,0.546099</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"radius5-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.0619599,-0.0227496,0.022012</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.500637,-0.218144,-0.837721,0.399458,0.916751,0,0.767982,-0.334634,0.546099</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="34">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"humerus5_right-1:-:radius5-1::radius5-1(AUTOGEN)"</nodeID>
+            <position>0.061853,-0.0167036,0.0203737</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="37">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 5-1:-:radius5-1::radius5-1(AUTOGEN)"</nodeID>
+            <position>0.0976595,-0.0366689,-0.0365888</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="47">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 3-1:-:radius5-1::radius5-1(AUTOGEN)"</nodeID>
+            <position>0.0996967,-0.0319935,-0.0365888</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - radius5-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"digit 5-2"</name>
+        <nodeID>"digit 5-2"</nodeID>
+        <status>""</status>
+        <mass>0.000627913</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>4.77978e-009,7.52312e-009,6.57727e-010,7.52312e-009,4.69347e-007,-6.68752e-011,6.57727e-010,-6.68752e-011,4.65325e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>6.15601e-007</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00117507</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 5-2::CG(AUTOGEN)"</nodeID>
+            <position>-0.130973,-0.0300504,-0.00748313</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.229289,-0.0839379,0.969732,-0.343768,0.939054,0,-0.910632,-0.333363,-0.24417</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 5-2::CS1(AUTOGEN)"</nodeID>
+            <position>-0.126605,-0.0314785,-0.0226197</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.229289,-0.0839379,0.969732,-0.343768,0.939054,0,-0.910632,-0.333363,-0.24417</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="42">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 5-2:-:radius5-2::digit 5-2(AUTOGEN)"</nodeID>
+            <position>-0.12798,-0.0277222,-0.0226197</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="45">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 4-2:-:digit 5-2::digit 5-2(AUTOGEN)"</nodeID>
+            <position>-0.127464,-0.0291308,-0.0226197</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - digit 5-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"digit 3-1"</name>
+        <nodeID>"digit 3-1"</nodeID>
+        <status>""</status>
+        <mass>0.000927477</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>4.25859e-008,5.30437e-013,-1.56119e-007,5.30437e-013,9.99762e-007,1.56782e-013,-1.56119e-007,1.56782e-013,9.57517e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>9.09291e-007</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00171139</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 3-1::CG(AUTOGEN)"</nodeID>
+            <position>0.133076,-0.047356,-0.0341214</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.916713,-0.399442,-0.00913574,0.399458,0.916751,0,0.0083752,-0.00364935,0.999958</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 3-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.0990975,-0.0333686,-0.0365888</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.916713,-0.399442,-0.00913574,0.399458,0.916751,0,0.0083752,-0.00364935,0.999958</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="48">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 3-1:-:radius5-1::digit 3-1(AUTOGEN)"</nodeID>
+            <position>0.0996967,-0.0319935,-0.0365888</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - digit 3-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"digit 4-1"</name>
+        <nodeID>"digit 4-1"</nodeID>
+        <status>""</status>
+        <mass>0.000580341</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.08423e-009,6.78726e-009,-1.17599e-008,6.78726e-009,4.86668e-007,2.38134e-010,-1.17599e-008,2.38134e-010,4.84021e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>5.68962e-007</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00109064</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 4-1::CG(AUTOGEN)"</nodeID>
+            <position>0.122562,-0.0453793,-0.0240151</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.832482,-0.362739,0.418801,0.399458,0.916751,0,-0.383936,0.167293,0.908078</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 4-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.0974597,-0.0371273,-0.0365888</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.832482,-0.362739,0.418801,0.399458,0.916751,0,-0.383936,0.167293,0.908078</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="40">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 4-1:-:digit 5-1::digit 4-1(AUTOGEN)"</nodeID>
+            <position>0.0982587,-0.0352938,-0.0365888</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - digit 4-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"leg-1"</name>
+        <nodeID>"leg-1"</nodeID>
+        <status>""</status>
+        <mass>0.000873585</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>6.16178e-008,1.7833e-015,-7.80759e-008,1.7833e-015,1.78974e-007,-9.84923e-016,-7.80759e-008,-9.84923e-016,1.19394e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>8.56456e-007</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.000816877</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"leg-1::CG(AUTOGEN)"</nodeID>
+            <position>0.0220297,0.00238611,0.066232</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.894466,0,0.447136,0,1,0,-0.447136,0,0.894466</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"leg-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.0112651,0.00038611,0.052</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.894466,0,0.447136,0,1,0,-0.447136,0,0.894466</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="30">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_right-1:-:leg-1::leg-1(AUTOGEN)"</nodeID>
+            <position>0.0112651,0.00438611,0.052</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - leg-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"digit 3-2"</name>
+        <nodeID>"digit 3-2"</nodeID>
+        <status>""</status>
+        <mass>0.000927477</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>4.25859e-008,5.30437e-013,-1.56119e-007,5.30437e-013,9.99762e-007,1.56782e-013,-1.56119e-007,1.56782e-013,9.57517e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>9.09291e-007</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00171139</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 3-2::CG(AUTOGEN)"</nodeID>
+            <position>-0.159324,-0.0438292,-0.0110989</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.911682,-0.333748,0.239684,0.343768,-0.939054,0,0.225077,0.0823959,0.970851</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 3-2::CS1(AUTOGEN)"</nodeID>
+            <position>-0.126742,-0.0311028,-0.0226197</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.911682,-0.333748,0.239684,0.343768,-0.939054,0,0.225077,0.0823959,0.970851</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="44">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 3-2:-:radius5-2::digit 3-2(AUTOGEN)"</nodeID>
+            <position>-0.126226,-0.0325114,-0.0226197</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - digit 3-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"digit 4-2"</name>
+        <nodeID>"digit 4-2"</nodeID>
+        <status>""</status>
+        <mass>0.000580341</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.08423e-009,6.78726e-009,-1.17599e-008,6.78726e-009,4.86668e-007,2.38134e-010,-1.17599e-008,2.38134e-010,4.84021e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>5.68962e-007</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00109064</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 4-2::CG(AUTOGEN)"</nodeID>
+            <position>-0.146347,-0.0365357,-0.00166556</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.662216,-0.242424,0.709014,0.343768,-0.939054,0,0.665803,0.243736,0.705195</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 4-2::CS1(AUTOGEN)"</nodeID>
+            <position>-0.128151,-0.0272527,-0.0226197</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.662216,-0.242424,0.709014,0.343768,-0.939054,0,0.665803,0.243736,0.705195</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="46">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"digit 4-2:-:digit 5-2::digit 4-2(AUTOGEN)"</nodeID>
+            <position>-0.127464,-0.0291308,-0.0226197</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - digit 4-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"leg-2"</name>
+        <nodeID>"leg-2"</nodeID>
+        <status>""</status>
+        <mass>0.000873585</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>6.16178e-008,1.7833e-015,-7.80759e-008,1.7833e-015,1.78974e-007,-9.84923e-016,-7.80759e-008,-9.84923e-016,1.19394e-007</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>8.56456e-007</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.000816877</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"leg-2::CG(AUTOGEN)"</nodeID>
+            <position>-0.0442793,0.00238611,0.0681713</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.780947,0,0.624598,0,-1,0,0.624598,0,0.780947</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"leg-2::CS1(AUTOGEN)"</nodeID>
+            <position>-0.0367349,0.00438611,0.052</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.780947,0,0.624598,0,-1,0,0.624598,0,0.780947</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="26">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"body5_2_left-1:-:leg-2::leg-2(AUTOGEN)"</nodeID>
+            <position>-0.0367349,0.00438611,0.052</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Batbot - leg-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.25098,0.25098,0.25098</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.31</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+    </bodies>
+    <joints>
+      <SimpleJoint>
+        <name>"RootPart--body5_2_right-1"</name>
+        <nodeID>"Batbot/RootPart:-:body5_2_right-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="1"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="2"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"servo-1--barra_servo-1"</name>
+        <nodeID>"barra_servo-1:-:servo-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="3"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="4"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"motor_case-2--servo-1"</name>
+        <nodeID>"motor_case-2:-:servo-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="5"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="6"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"shoulder5_right-1--barra5-1"</name>
+        <nodeID>"barra5-1:-:shoulder5_right-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="7"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="8"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"barra_servo-1--barra5-1"</name>
+        <nodeID>"barra5-1:-:barra_servo-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="9"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="10"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"body5_2_left-1--shoulder5_left-1"</name>
+        <nodeID>"body5_2_left-1:-:shoulder5_left-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="11"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="12"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"shoulder5_left-1--humerus5_left-1"</name>
+        <nodeID>"humerus5_left-1:-:shoulder5_left-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="13"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="14"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.343768,-0.939054,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"shoulder5_left-1--barra5-2"</name>
+        <nodeID>"barra5-2:-:shoulder5_left-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="15"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="16"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"body5_2_right-1--shoulder5_right-1"</name>
+        <nodeID>"body5_2_right-1:-:shoulder5_right-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="17"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="18"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"shoulder5_right-1--humerus5_right-1"</name>
+        <nodeID>"humerus5_right-1:-:shoulder5_right-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="19"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="20"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.399458,0.916751,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"body5_2_right-1--body5_2_left-1"</name>
+        <nodeID>"body5_2_left-1:-:body5_2_right-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="21"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="22"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"body5_2_left-1--motor_case-2"</name>
+        <nodeID>"body5_2_left-1:-:motor_case-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="23"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="24"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-1,0,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"body5_2_left-1--leg-2"</name>
+        <nodeID>"body5_2_left-1:-:leg-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="25"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="26"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,1,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"body5_2_right-1--motor_case-2"</name>
+        <nodeID>"body5_2_right-1:-:motor_case-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="27"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="28"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"body5_2_right-1--leg-1"</name>
+        <nodeID>"body5_2_right-1:-:leg-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="29"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="30"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,-1,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"barra_servo-1--barra5-2"</name>
+        <nodeID>"barra5-2:-:barra_servo-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="31"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="32"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,1</axis>
+          </Primitive>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,0,-1</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"humerus5_right-1--radius5-1"</name>
+        <nodeID>"humerus5_right-1:-:radius5-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="33"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="34"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-0.399458,-0.916751,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"humerus5_left-1--radius5-2"</name>
+        <nodeID>"humerus5_left-1:-:radius5-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="35"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="36"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.343768,-0.939054,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"radius5-1--digit 5-1"</name>
+        <nodeID>"digit 5-1:-:radius5-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="37"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="38"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-0.399458,-0.916751,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"digit 5-1--digit 4-1"</name>
+        <nodeID>"digit 4-1:-:digit 5-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="39"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="40"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.399458,0.916751,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"radius5-2--digit 5-2"</name>
+        <nodeID>"digit 5-2:-:radius5-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="41"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="42"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-0.343768,0.939054,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"radius5-2--digit 3-2"</name>
+        <nodeID>"digit 3-2:-:radius5-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="43"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="44"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.343768,-0.939054,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"digit 5-2--digit 4-2"</name>
+        <nodeID>"digit 4-2:-:digit 5-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="45"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="46"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-0.343768,0.939054,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"radius5-1--digit 3-1"</name>
+        <nodeID>"digit 3-1:-:radius5-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="47"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="48"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.399458,0.916751,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"RootGround--RootPart"</name>
+        <nodeID>"Batbot/RootPart:-:RootGround"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="49"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="50"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+    </joints>
+    <grounds>
+      <Ground>
+        <name>"RootGround"</name>
+        <nodeID>"RootGround"</nodeID>
+        <status>""</status>
+        <frame>
+          <Frame ref="49">
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Batbot/RootPart:-:RootGround::RootGround(AUTOGEN)"</nodeID>
+            <position>-0.0126203,-0.00464218,0.00877209</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frame>
+      </Ground>
+    </grounds>
+    <subsystems></subsystems>
+    <connectionPorts></connectionPorts>
+    <id>0</id>
+  </SimMechanics>
+
+</PhysicalModelingXMLFile>
